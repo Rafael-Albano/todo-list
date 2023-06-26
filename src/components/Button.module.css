@@ -1,0 +1,24 @@
+.buttonInput {
+  color: var(--gray-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.6rem;
+  height: 3.2rem;
+  background-color: var(--blue-300);
+  margin-left: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--blue-100);
+  gap: 3px;
+}
+
+.buttonInput:focus-within {
+  border: 1px solid var(--blue-100);
+  outline: var(--blue-100), solid 1px;
+}
+
+.buttonInput:hover {
+  background-color: var(--blue-100);
+  border: 1px solid var(--blue-300);
+  outline: var(--blue-300), solid 1px;
+}

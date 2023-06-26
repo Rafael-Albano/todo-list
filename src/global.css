@@ -1,0 +1,51 @@
+:root {
+  /* PRODUTO */
+  --blue-100: #4ea8de;
+  --blue-300: #1e6f9f;
+  --purple-300: #5e60ce;
+  --purple-100: #8284fa;
+
+  /* BASE */
+  --gray-100: #f2f2f2;
+  --gray-200: #d9d9d9;
+  --gray-300: #808080;
+  --gray-400: #333333;
+  --gray-500: #262626;
+  --gray-600: #1a1a1a;
+  --gray-700: #0d0d0d;
+
+  /* FEEDBACK */
+  --red-100: #e25858;
+
+  /* FONT FAMILY */
+  --text-base: 1rem;
+  --text-sm: 0.8rem;
+  --text-xs: 0.7rem;
+  --leading-6: 22.4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-600);
+  color: var(--gray-100);
+  min-height: 100vh;
+  -webkit-font-smothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}

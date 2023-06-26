@@ -1,0 +1,13 @@
+.task {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  background: var(--gray-500);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
