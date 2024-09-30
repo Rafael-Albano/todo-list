@@ -9,6 +9,7 @@ type Props = {
 };
 
 export const TaskList = ({ tasks, setTasks }: Props) => {
+  const tasksCompleted = tasks.filter(({isCompleted}) => isCompleted)
   return (
     <section className={styles.tasks}>
       <header className={styles.header}>
@@ -20,7 +21,7 @@ export const TaskList = ({ tasks, setTasks }: Props) => {
         <div className={styles.done}>
           <p>Concluídas</p>
           <span className={styles.counter}>
-            {tasks.length} de {tasks.length}
+            {tasksCompleted.length} de {tasks.length}
           </span>
         </div>
       </header>

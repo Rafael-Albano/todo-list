@@ -37,7 +37,7 @@ export const NewTaskForm = ({ setTasks }: Props) => {
         value={taskDescription}
         onChange={handleNewTask}
       />
-      <Button>
+      <Button cssModuleClass={styles.buttonInput}>
         Criar <PlusCircle size={20} />
       </Button>
     </form>
